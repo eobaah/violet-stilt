@@ -17,14 +17,13 @@ The artifact produced is properly licensed, preferably with the [Set artifact](h
 - [ ] I can create to do list items.
 - [ ] I can delete unwanted to do list items.
 - [ ] I can check items off as completed.
-- [ ] I can rearrange to do list items.
 - [ ] I can edit the text on existing to do's.
 - [ ] Complete Treehouse tutorial on Express.
 
 ### Additional Specs:
 - [ ] Create the back end using node and express.
-- [ ] Deploy the app to heroku.
 - [ ] Create a database of to do list items.
+- [ ] I can rearrange to do list items.
 - [ ] JS Lint finds no mistakes
 - [ ] Follow good Git team behaviors (do all your work on branches & submit pull requests for review before merging to master)
 - [x] The artifact produced is properly licensed, preferably with the MIT license.
@@ -33,16 +32,8 @@ The artifact produced is properly licensed, preferably with the [Set artifact](h
 - [ ] I can create mulitple lists of to do's.
 - [ ] I can log into my account.
 - [ ] Write the app using ES6 and deploy using babel.
+- [ ] Deploy the app to heroku.
 
-
-## Daily goals
-|| Mon | Tues | Wed | Thurs | Fri | Sat |Sun|
-|------------ |------------ |------------ |------------ |------------ |------------ |------------ |
-|Modules| |TreeHouse tutorials + Set goals for the week |TreeHouse tutorials + code app |||||
-|Time|Vacation|0 hrs|0 hrs|0 hrs|0 hrs|0 hrs|0 hrs|
-
-  @eobaah and @lilvina will be collaborating on this project.
----
 
 <!-- LICENSE -->
 

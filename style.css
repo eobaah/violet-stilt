@@ -1,6 +1,6 @@
 
 body{
-  background: url("images/forrest.jpg") no-repeat center center fixed;
+  background: url("images/notePad.jpg") no-repeat center center fixed;
   background-size: cover;
   font-family:'Droid Serif', serif;
 
@@ -17,6 +17,10 @@ body{
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 500px;
+  z-index: 3;
 }
 
 .items {
@@ -33,35 +37,55 @@ input, button {
   width: 50px;
 }
 
-button {
+.woody {
+background: url("images/wood-button.jpg") no-repeat center center fixed;
+background-size: contain;
+font-family:'Droid Serif', serif;
+margin-left: 5%;
+border-radius: 10px;
+width: 70px;
+text-align: center;
+padding: 2% 0;
+color: #fff;
+
+}
+/*button {
   margin: 0 0 0 5%;
   width: 100px;
   border-radius: 10px;
-}
+}*/
 
 .list-elements {
   width: 100%;
 }
-.list-btns {
-  width: 10%;
+.list-btn {
+  width: 60px;
+  border-radius: 10px;
+  background-color: rgb(127,111,97);
+  color: #fff;
+  border: none;
+}
+
+.remove {
+  margin-left: 5%;
 }
 
 .list-items {
 display: flex;
 flex-direction: row;
-width: 90px;
-
+padding-right:7%;
 }
+
 ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   /*justify-content: center;*/
 }
 
 li {
   display: flex;
   flex-direction: row;
-  /*align-items: center;*/
+  align-items: center;
   color
 }
 h1, h3, li {
@@ -72,4 +96,8 @@ h1, h3, li {
 }*/
 h3 {
   margin: 0 30% 0 0;
+}
+
+h4 {
+  width: 350px;
 }

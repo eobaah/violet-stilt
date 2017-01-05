@@ -1,26 +1,18 @@
 {
-  "name": "violet-stilt",
+  "name": "node-js-playlist-master",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.14.0",
-    "save": "^2.3.0"
-  },
-  "devDependencies": {},
-  "description": "To do list app",
-  "main": "index.js",
+  "description": "a little todo app",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eobaah/violet-stilt.git"
+  "author": "Eugene Baah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eobaah/violet-stilt/issues"
-  },
-  "homepage": "https://github.com/eobaah/violet-stilt#readme"
+  "devDependencies": {}
 }

@@ -14,15 +14,15 @@ Level the project correctly into stretch zone (Goldilocks Status: Achievement Un
 
 ### User Stories:
 The artifact produced is properly licensed, preferably with the [Set artifact](https://github.com/eobaah/violet-stilt).
-- [ ] I can create to do list items.
-- [ ] I can delete unwanted to do list items.
+- [x] I can create to do list items.
+- [x] I can delete unwanted to do list items.
 - [ ] I can check items off as completed.
 - [ ] I can edit the text on existing to do's.
-- [ ] Complete Treehouse tutorial on Express.
+- [x] Complete Treehouse tutorial on Express.
 
 ### Additional Specs:
-- [ ] Create the back end using node and express.
-- [ ] Create a database of to do list items.
+- [x] Create the back end using node and express.
+- [x] Create a database of to do list items.
 - [ ] I can rearrange to do list items.
 - [ ] JS Lint finds no mistakes
 - [ ] Follow good Git team behaviors (do all your work on branches & submit pull requests for review before merging to master)

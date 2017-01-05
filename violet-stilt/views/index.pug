@@ -1,0 +1,19 @@
+html
+  head
+    title Todo List
+    link(href='/assets/styles.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Droid+Serif', rel='stylesheet')
+    | ™
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src='/assets/todo-list.js')
+  body
+    #todo-table.container
+      .wrapper
+        .title.items
+          h1 GSD List
+        .name.items
+          form
+            input(type='text', name='item', placeholder='Add new item...', required='')
+            button.woody.button(type='button') Submit
+        .list-elements
+          ul

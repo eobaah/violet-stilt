@@ -69,7 +69,6 @@ padding: 4%;
 color: #fff;
 font-weight: 400;
 border-style: none;
-
 }
 
 .list-elements {
@@ -79,20 +78,37 @@ border-style: none;
 ul {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  list-style: square inside;
+  /*justify-content: center;
+  list-style: square inside;*/
+  /*align-items: center;*/
+
   padding: 5%;
   margin: 0 5% 5% 5%;
 }
 
+.list-and-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
 li {
   display: flex;
   flex-direction: row;
-  text-align: center;
-  margin: 0 0 5% 10%;
+  text-align: flex-start;
+  align-items: center;
+  margin: 0 0 5% 0%;
   cursor: pointer;
+  width: 50%;
 }
 
+li .woody {
+  height: 35px;
+  padding: 3%;
+  width: 25%;
+  justify-content: flex-end;
+
+}
 li:hover{
   text-decoration: line-through;
   background: rgba(0,0,0,0.2);

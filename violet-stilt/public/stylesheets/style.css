@@ -1,0 +1,103 @@
+body{
+  background: url("/assets/notePad.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family:'Droid Serif', serif;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+
+
+}
+#todo-table form:after{
+  margin: 0;
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 500px;
+  z-index: 3;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+input, button {
+  height: 35px;
+  width: 100%;
+}
+.input-name {
+  width: 50px;
+}
+
+.woody {
+background: url("/assets/wood-button.jpg") no-repeat center center fixed;
+background-size: contain;
+font-family:'Droid Serif', serif;
+margin-left: 5%;
+border-radius: 10px;
+width: 70px;
+text-align: center;
+padding: 4%;
+color: #fff;
+font-weight: 400;
+border-style: none;
+
+}
+
+.list-elements {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: square inside;
+  padding: 5%;
+  margin: 0 5% 5% 5%;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 0 0 5% 10%;
+  cursor: pointer;
+}
+
+li:hover{
+  text-decoration: line-through;
+  background: rgba(0,0,0,0.2);
+}
+
+h1, li {
+  color: #fff;
+}
+

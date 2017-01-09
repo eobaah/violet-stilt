@@ -114,6 +114,27 @@ li:hover{
   background: rgba(0,0,0,0.2);
 }
 
-h1, li {
+h1, h3, li {
   color: #fff;
+}
+ button {
+   cursor: pointer;
+ }
+
+a{
+  font-family:'Droid Serif', serif;
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.list-and-buttons .fa {
+  color: #fff;
+  font-size:35px;
+  cursor: pointer;
+}
+
+.reorder-down {
+  margin: 0 5px;
 }

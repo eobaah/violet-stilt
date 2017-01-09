@@ -11,25 +11,23 @@
     <div id="todo-table" class="container">
       <div class="wrapper">
         <div class="title items">
-          <h1>GSD List</h1>
+          <h1>GSD Edit List</h1>
         </div>
         <div class="name items">
-          <form class="new-item">
-            <input class="input-new-item"type="text" name="item" placeholder="Add new item..." required />
-            <button class="woody button" type="submit">Submit</button>
-          </form>
+          <h3>
+            Edit your todo items below and click submit.
+          </h3>
         </div>
         <div class="list-elements">
           <ul>
-
               <% for (var i=0; i < todos.length; i++){ %>
                 <div class="list-and-buttons">
-                  <a href="#" id="reorder-up"><i class="fa fa-angle-up"></i></a>
-                  <a href="#" id="reorder-down"><i class="fa fa-angle-down"></i></a>
-                  <form>
-                    <li><%= todos[i].item %></li>
+                  <a href="#" class="reorder-up"><i class="fa fa-angle-up"></i></a>
+                  <a href="#" class="reorder-down"><i class="fa fa-angle-down"></i></a>
+                  <form class="update-item" action="/edit/<%= todos[i]._id %>" method='POST'>
+                    <input type="text" name="updateItem" value="<%= todos[i].item %>" required />
+                    <button id="edit" class="woody button" type="submit">Submit</button>
                   </form>
-                  <button class="woody button" type="button"><a href="/edit">Edit</a></button>
                 </div>
               <% } %>
           </ul>
